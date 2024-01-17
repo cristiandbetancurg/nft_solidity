@@ -20,5 +20,6 @@ La función `mintNFT()` crea un nuevo NFT. El usuario debe pagar 0,01 ether para
 
 La rareza de un NFT **se refiere a la singularidad de ese token en comparación con otros NFT de la misma colección**, su rareza lo vuelve escaso y es lo que se denomina escasez digital, por lo que implementar una rareza y un score es importante.
 
-La función `generateRarity()` puede usar este enum para generar una rareza aleatoria. Con este puedes generar una rareza entre 0 y 7, correspondiente a las 8 rarezas definidas.
+## generateRarity.sol
 
+La función `generateRarity()` puede usar este enum para generar una rareza aleatoria. Con este puedes generar una rareza entre 0 y 7, correspondiente a las 8 rarezas definidas.

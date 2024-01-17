@@ -53,19 +53,19 @@ contract NFTCollection {
 
     require(msg.value == 0.01 ether);
 
-    // Genera un nuevo NFT
+    // Se genera un nuevo NFT
 
     NFT memory newNFT = NFT(totalSupply, generateRarity(), "https://example.com/image/" + totalSupply);
 
-    // Añade el nuevo NFT a la colección
+    // Añade el nuevo NFT creado a la colección
 
     NFTs.push(newNFT);
 
-    // Actualiza el total de NFTs
+    // Actualiza el total de todos los NFTs
 
     totalSupply++;
 
-    // Devuelve el nuevo NFT al usuario
+    // Devolvemos el nuevo NFT al usuario
 
     emit MintedNFT(newNFT.id);
     return newNFT;

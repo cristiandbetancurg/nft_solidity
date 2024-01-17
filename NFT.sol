@@ -2,7 +2,7 @@ pragma solidity ^0.8.0;
 
 contract NFTCollection {
 
-  // Atributos de la colección
+  // Los atributos de la colección
 
   string public name;
   string public symbol;

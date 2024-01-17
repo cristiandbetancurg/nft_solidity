@@ -16,7 +16,7 @@ contract NFTCollection {
     string imageURI;
   }
 
-  // Arreglo de los NFT
+  // Array
 
   NFT[] public NFTs;
 
